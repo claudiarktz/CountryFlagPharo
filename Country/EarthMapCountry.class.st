@@ -23,6 +23,7 @@ EarthMapCountry >> fromXML: aXMLElement [
 	svgPath := aXMLElement attributeAt: 'd'.
 	name := aXMLElement attributeAt: 'title'.
 	code := aXMLElement attributeAt: 'id'.
+
 ]
 
 { #category : 'inspector extensions' }
